@@ -60,3 +60,11 @@ The following packages were updated:
   com.unity.test-framework from version 1.1.29 to 1.1.30
   com.unity.timeline from version 1.6.2 to 1.7.0-pre.2
   com.unity.visualscripting from version 1.7.2 to 1.7.5
+
+=== Mon Apr 18 23:59:43 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.render-pipelines.high-definition from version 12.1.0 to 13.1.5
