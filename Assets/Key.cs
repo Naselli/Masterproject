@@ -13,7 +13,7 @@ public class Key : MonoBehaviour
     private void Start()
     {
         g = gate.GetComponent<Gate>();
-        trees = GameObject.FindGameObjectsWithTag("Tree");
+        trees = GameObject.FindGameObjectsWithTag("flying");
         bluegate = GameObject.FindGameObjectWithTag("BlueGate");
     }
 
@@ -40,7 +40,7 @@ public class Key : MonoBehaviour
             Debug.Log("Tree Enter trigger event ");
             foreach (GameObject g in trees)
             {
-                g.GetComponent<TreeEvent>().tree = true;
+                g.GetComponent<fly>().tree = true;
             }
             Destroy(other.gameObject);
         }
